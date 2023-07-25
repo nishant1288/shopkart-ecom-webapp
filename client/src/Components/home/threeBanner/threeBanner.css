@@ -1,0 +1,23 @@
+.three-banner{
+    width: 98%;
+}
+
+.banner-img{
+    width: 33%;
+    cursor: pointer;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+@media screen and (max-width : 900px) {
+    .three-banner {
+        flex-direction: column;
+    }
+
+    .banner-img{
+        width: 100%;
+        margin-top: 5px
+    }
+}

@@ -1,0 +1,26 @@
+.cart {
+    width: 98%;
+}
+
+.cartItems {
+    width: 65%;
+}
+
+.cart-balance {
+    width: 30%;
+}
+
+@media screen and (max-width : 900px) {
+
+    .cart-section {
+        flex-direction: column;
+    }
+
+    .cartItems {
+        width: 100%;
+    }
+    
+    .cart-balance {
+        width: 100%;
+    }
+}

@@ -1,0 +1,33 @@
+.product-ad-slide {
+    width: 98%;
+}
+
+.left-banner {
+    width: 84%;
+}
+
+.left-banner .product-slide {
+    width: 100%;
+}
+
+.side-banner {
+    width: 15%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.side-banner img {
+    width: 100%;
+}
+
+@media screen and (max-width : 900px) {
+    .side-banner {
+        display: none;
+    }
+
+    .left-banner {
+        width: 100%;
+    }
+}

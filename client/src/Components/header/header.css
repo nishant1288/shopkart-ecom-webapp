@@ -1,0 +1,38 @@
+.navbar {
+    background-color: white !important;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
+
+.logo-line {
+    font-size: 25px;
+}
+
+.head-line, .cart-line {
+    text-decoration: none;
+}
+
+.cart-line {
+    color: black;
+}
+
+.navbar-brand {
+    color: #005ae0;
+    font-weight: 600;
+}
+
+.search-box {
+    width: 50%;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+@media screen and (max-width : 900px) {
+    .search-box {
+        width: 100%;
+        margin-top: 10px !important;
+    }
+}

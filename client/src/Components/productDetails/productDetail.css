@@ -1,0 +1,79 @@
+.product {
+    background-color: white;
+}
+
+.back{
+    font-size: 20px;
+}
+
+.back-sect {
+    text-decoration: none;
+}
+
+.product-image {
+    width: 40%;
+}
+
+.product-detail {
+    width: 55%;
+}
+
+.product-detail p {
+    margin-bottom: 0;
+}
+
+.price-heading {
+    color: green;
+    font-weight: 600;
+}
+
+.price {
+    width: 350px;
+}
+
+.cost {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.mrp {
+    font-size: 20px;
+    color: gray;
+}
+
+.discount {
+    font-size: 20px;
+    color: green;
+}
+
+.offer {
+    font-size: 16px;
+}
+
+.fa-tag {
+    color: green;
+    font-size: 17px;
+}
+
+.offer span {
+    font-weight: 600;
+}
+
+.product-description {
+    font-size: 18px;
+}
+
+@media screen and (max-width:900px) {
+    .product-detail-section {
+        flex-direction: column;
+    }
+
+    .product-image {
+        width: 100%;
+    }
+
+    .product-detail {
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,47 @@
+.image-quantity {
+    width: 30%;
+    height: 200px;
+}
+
+.image-quantity img {
+    width: 50%;
+}
+
+.product-details-sect {
+    width: 65%;
+}
+
+.remove-btn {
+    top: -6px;
+    right: -45px;
+}
+
+@media screen and (max-width : 900px) {
+
+    .product-image-detail-sect {
+        flex-direction: column;
+    }
+
+    .image-quantity {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .product-details-sect {
+        width: 100%;
+        padding: 0!important;
+    }
+
+    .price-details {
+        width: 100%!important;
+    }
+
+    .remove-btn {
+        position: static!important;
+    }
+
+    .img {
+        margin-bottom: 10px;
+    }
+   
+}

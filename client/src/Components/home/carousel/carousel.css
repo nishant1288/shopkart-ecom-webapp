@@ -1,0 +1,11 @@
+.carousel-sec {
+    width: 98%;
+    margin: auto;
+}
+
+@media screen and (max-width : 900px) {
+    .carousel-sec img {
+        height: 20vh;
+        object-fit: cover;
+    }
+}

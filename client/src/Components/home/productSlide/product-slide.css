@@ -1,0 +1,38 @@
+.react-multiple-carousel__arrow {
+    background-color: rgb(117, 115, 115);
+    z-index: 9;
+}
+
+.product-link {
+    text-decoration: none;
+    color: black;
+}
+
+.product-slide{
+    width: 98%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.more-btn {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.product-details {
+    border: 1px solid rgb(211, 209, 209);
+    border-radius: 5px;
+    height: 250px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.product-details img {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+
+

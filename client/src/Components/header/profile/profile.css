@@ -1,0 +1,19 @@
+.toast {
+    border: none;
+}
+
+.toast-header {
+    position: absolute;
+    width: 100%;
+
+}
+
+.fa-arrow-right-from-bracket {
+    margin-left: 10px;
+}
+
+@media screen and (max-width : 900px) {
+    .toast-header {
+        position: static;
+    }
+}

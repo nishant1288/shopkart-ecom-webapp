@@ -1,0 +1,25 @@
+.productImageAction {
+    background-color: white;
+    text-align: center;
+}
+
+.cart-btn, .cart-btn:hover  {
+    background-color: #ff9f00;
+    border: #ff9f00;
+    width: 40%;
+    height: 50px;
+}
+
+.buy-btn, .buy-btn:hover {
+    background-color: #fb541b;
+    border: #fb541b;
+    width: 40%;
+    height: 50px;
+}
+
+@media screen and (max-width : 900px) {
+    .big-product-image {
+        width: 100%;
+    }
+}
+

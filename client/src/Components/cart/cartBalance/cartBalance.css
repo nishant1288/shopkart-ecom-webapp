@@ -1,0 +1,17 @@
+.cartBalance {
+    position: sticky;
+    top: 80px;
+}
+
+.price-detail-text span {
+    float: right;
+}
+
+.end-text {
+    color: green;
+}
+
+.cart-pay-btn, .cart-pay-btn:hover {
+    background-color: #ff9f00;
+    border: #ff9f00;
+}

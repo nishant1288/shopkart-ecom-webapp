@@ -1,0 +1,22 @@
+.signin-btn {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.input-field {
+    width: 35%;
+}
+
+.text-label {
+    font-weight: 500;
+    color: blue;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width : 900px) {
+    .input-field {
+        display: none;
+    }
+}

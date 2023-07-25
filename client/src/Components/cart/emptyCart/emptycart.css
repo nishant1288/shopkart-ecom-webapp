@@ -1,0 +1,23 @@
+.empty-cart {
+    margin-top: 10px;
+}
+
+.empty-cart-img {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.empty-cart-img img{
+    width: 40%;
+    margin: auto;
+}
+
+.empty-cart-text {
+    text-align: center;
+}
+
+@media screen and (max-width : 900px) {
+    .empty-cart-img img{
+        width: 90%;
+    }
+}
