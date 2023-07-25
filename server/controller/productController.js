@@ -1,4 +1,4 @@
-import { response } from "express";
+
 import Products from "../model/productSchema.js"
 
 export const getProduts = async(request, response) => {

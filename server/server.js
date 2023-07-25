@@ -17,10 +17,12 @@ app.use('/', Router);
 const PORT = process.env.PORT || 8000;
 
 
-const USERNAME = process.env.DB_USERNAME;
-const PASSWORD = process.env.DB_PASSWORD;
+// const USERNAME = process.env.DB_USERNAME;
+// const PASSWORD = process.env.DB_PASSWORD;
 
-const URL = process.env.MONGODB_URI || `mongodb+srv://${USERNAME}:${PASSWORD}@shopkart-database.qg2qpwt.mongodb.net/`
+const DATABASE = process.env.DATABASE;
+
+const URL = DATABASE;
 
 Connection(URL);
 
